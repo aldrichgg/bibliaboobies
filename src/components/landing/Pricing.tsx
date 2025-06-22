@@ -4,17 +4,11 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Check, Gift } from 'lucide-react';
 
 const includedFeatures = [
-  'Acesso ao BíbliaTeca Mapeada - A Bíblia para colorir (60 desenhos)',
-  'Bônus: Devocional Hábitos Vencedores',
-  'Bônus: Guia de Cores Terapêuticas',
-  'Bônus: Playlist para momentos de oração',
-  'Bônus: Acesso à comunidade VIP',
-  'Bônus: Marcadores de página temáticos',
-  'Bônus: Acesso vitalício ao material',
-  'Bônus: Desenhos em alta resolução para impressão',
-  'Bônus: Suporte exclusivo para tirar dúvidas',
-  'Bônus Extra: 10 Desenhos Adicionais de Páscoa',
-  'Bônus Extra: 10 Desenhos Adicionais de Natal',
+  'Acesso ao BíbliaTeca Mapeada (60 desenhos)',
+  'Bônus: 50 Devocionais infantis',
+  'Bônus: Acesso vitalício',
+  'Bônus: Desenhos em alta resolução',
+  'Bônus: Suporte exclusivo',
 ];
 
 export function Pricing() {
@@ -28,7 +22,7 @@ export function Pricing() {
               Oferta Especial de Lançamento
             </CardTitle>
             <CardDescription className="text-lg text-gray-600">
-              Acesso completo ao <span className="font-bold text-pink-500">BíbliaTeca Mapeada</span> + 10 Bônus Exclusivos
+              Acesso completo ao <span className="font-bold text-pink-500">BíbliaTeca Mapeada</span> + 4 Bônus Exclusivos
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col items-center space-y-4 px-8">
@@ -41,7 +35,7 @@ export function Pricing() {
               {includedFeatures.map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
                   <Check className="h-6 w-6 text-green-500 shrink-0 bg-green-100 rounded-full p-1" />
-                  <span className="text-gray-700">{feature.startsWith('Bônus Extra') ? <strong>{feature}</strong> : feature}</span>
+                  <span className="text-gray-700">{feature.startsWith('Bônus') ? <strong>{feature}</strong> : feature}</span>
                 </li>
               ))}
             </ul>
