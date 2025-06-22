@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'God Is Good - A Bíblia para Colorir',
+  title: 'BíbliaTeca Mapeada - A Bíblia para Colorir',
   description: 'Uma coleção cristã com 60 desenhos para colorir, do Antigo ao Novo Testamento. Tempo de qualidade com Deus e em família.',
 };
 
@@ -17,9 +17,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fredoka+One&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-body antialiased">
+      <body className="font-body antialiased bg-blue-50">
         {children}
         <Toaster />
       </body>
