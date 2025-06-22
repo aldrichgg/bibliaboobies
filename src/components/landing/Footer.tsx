@@ -12,7 +12,7 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Image 
                 src="https://bibliatecamapeada.com/wp-content/uploads/2025/01/Design-sem-nome-12-300x300.png"
-                alt="BíbliaTeca Mapeada Logo"
+                alt="God Is Good Logo"
                 width={60}
                 height={60}
               />
@@ -45,7 +45,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-blue-200 mt-8 pt-6 text-center text-sm text-gray-500">
-          <p>BíbliaTeca Mapeada © 2024 – Todos os direitos reservados.</p>
+          <p>God Is Good © 2024 – Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { SalesPopup } from '@/components/landing/SalesPopup';
 
 export const metadata: Metadata = {
-  title: 'BíbliaTeca Mapeada - A Bíblia para Colorir',
+  title: 'God Is Good - A Bíblia para Colorir',
   description: 'Uma coleção cristã com 60 desenhos para colorir, do Antigo ao Novo Testamento. Tempo de qualidade com Deus e em família.',
 };
 

@@ -13,10 +13,10 @@ export function Guarantee() {
         />
         <div>
           <h2 className="text-2xl md:text-3xl font-bold font-headline text-primary-dark">
-            Garantia BíbliaTeca Mapeada
+            Garantia God Is Good
           </h2>
           <p className="mt-2 text-lg text-gray-700 max-w-2xl">
-            Confiamos tanto na qualidade do nosso material, que estamos te oferecendo uma garantia de 7 dias! Caso não esteja totalmente satisfeito, dentro deste prazo, devolvemos 100% do seu dinheiro, sem perguntas.
+            Confiamos tanto na qualidade do nosso material, que estamos te oferecendo uma garantia de 7 dias! Caso não esteja totalmente satisfeito, dentro deste prazo, devolvemos 100% do seu dinheiro.
           </p>
         </div>
       </div>

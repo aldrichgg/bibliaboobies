@@ -21,7 +21,7 @@ export function Audience() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary-dark">
-            O <span className="text-yellow-500">BíbliaTeca Mapeada</span> é pra você que:
+            O <span className="text-yellow-500">God Is Good</span> é pra você que:
           </h2>
         </div>
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">

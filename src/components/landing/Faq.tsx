@@ -32,9 +32,6 @@ export function Faq() {
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
             Ainda restou alguma dúvida?
           </h2>
-          <p className="mt-4 text-lg text-foreground/80">
-            Esclarecemos tudo pra você.
-          </p>
         </div>
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
@@ -46,6 +43,11 @@ export function Faq() {
             </AccordionItem>
           ))}
         </Accordion>
+        <div className="text-center mt-12">
+          <p className="text-lg text-foreground/80">
+            Entre em contato com a nossa equipe e esclarecemos tudo pra você: <a href="mailto:bibliatecamapeada@gmail.com" className="font-semibold text-primary hover:underline">bibliatecamapeada@gmail.com</a>
+          </p>
+        </div>
       </div>
     </section>
   )

@@ -9,7 +9,7 @@ export function Header() {
         <Link href="/" className="flex items-center space-x-2 mr-4">
           <Image 
             src="https://bibliatecamapeada.com/wp-content/uploads/2025/01/Design-sem-nome-12-300x300.png"
-            alt="BíbliaTeca Mapeada Logo"
+            alt="God Is Good Logo"
             width={60}
             height={60}
           />

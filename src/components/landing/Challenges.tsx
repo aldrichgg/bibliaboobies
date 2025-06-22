@@ -1,21 +1,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { WifiOff, BookX, Languages } from 'lucide-react';
+import { Smartphone, HelpCircle, MessagesSquare } from 'lucide-react';
 
 const challenges = [
   {
-    icon: <WifiOff className="h-8 w-8 text-primary" />,
-    title: "Concorrência tecnológica",
-    description: "Em um mundo dominado por estímulos visuais, a leitura da Bíblia pode parecer menos atrativa para as crianças.",
+    icon: <Smartphone className="h-8 w-8 text-primary" />,
+    title: "Estímulos tecnológicos",
+    description: "Em um mundo dominado pelo entretenimento visual, a leitura da Bíblia pode parecer menos atrativa comparada a experiências mais dinâmicas.",
   },
   {
-    icon: <BookX className="h-8 w-8 text-primary" />,
+    icon: <HelpCircle className="h-8 w-8 text-primary" />,
     title: "Barreira de contexto",
-    description: "As histórias bíblicas podem parecer distantes da realidade atual, dificultando o interesse dos pequenos.",
+    description: "As histórias bíblicas podem parecer distantes da realidade atual, dificultando o interesse em aprender sobre as Escrituras.",
   },
   {
-    icon: <Languages className="h-8 w-8 text-primary" />,
+    icon: <MessagesSquare className="h-8 w-8 text-primary" />,
     title: "Barreira linguística",
-    description: "Termos e linguagens antigas dificultam a conexão e o entendimento dos ensinamentos da Palavra.",
+    description: "Termos e linguagens antigas dificultam a conexão e o entendimento dos pequenos sobre os reais ensinamentos da Palavra.",
   },
 ];
 
@@ -25,10 +25,10 @@ export function Challenges() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
-            Conectando crianças à Palavra de Deus
+            Tudo seria diferente se lêssemos a Bíblia para as crianças
           </h2>
           <p className="mt-4 text-lg text-foreground/80">
-            Se você não sabe como despertar o interesse dos pequenos pela Bíblia, saiba que é mais comum do que você imagina. Existem algumas barreiras que dificultam essa conexão:
+            Se você não sabe como despertar o interesse dos pequenos pela Palavra, saiba que é mais comum do que você imagina. Existem algumas barreiras que dificultam essa conexão:
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

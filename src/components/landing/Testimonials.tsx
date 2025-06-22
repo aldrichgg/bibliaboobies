@@ -22,7 +22,7 @@ export function Testimonials() {
             <Star fill="currentColor" className="w-8 h-8" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary-dark">
-            +1.000 famílias <span className="text-pink-500">impactadas</span> pela nossa didática!
+            Já recebemos + de 1.000 feedbacks de famílias <span className="text-pink-500">impactadas</span> pela nossa didática!
           </h2>
           <p className="mt-4 text-lg text-gray-700">
             Veja o que as famílias estão dizendo sobre essa experiência transformadora.

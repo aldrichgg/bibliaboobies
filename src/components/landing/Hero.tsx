@@ -10,7 +10,10 @@ export function Hero() {
           Tempo de qualidade com <span className="text-yellow-500">Deus</span> e em <span className="text-pink-500">família</span>.
         </h1>
         <p className="text-lg text-gray-700 max-w-prose">
-          Inspirado no sucesso Bobbie Goods — um fenômeno que ganhou os lares com desenhos terapêuticos e acolhedores — nasceu o BíbliaTeca Mapeada: uma coleção cristã com 60 desenhos para colorir, do Antigo ao Novo Testamento.
+          Inspirado no sucesso Bobbie Goods — um fenômeno que ganhou os lares com desenhos terapêuticos e acolhedores — nasceu o God Is Good: uma coleção cristã com 60 desenhos para colorir, do Antigo ao Novo Testamento.
+        </p>
+        <p className="text-lg text-gray-700 max-w-prose">
+          Enquanto milhares de pessoas encontraram nas canetinhas uma forma de acalmar a mente, nós trouxemos o mesmo conceito para um lugar ainda mais profundo: a Bíblia.
         </p>
         <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider">
           <Link href="https://pay.kirvano.com/5f30f347-3bd4-4900-8d37-21b93a049048">QUERO O MEU AGORA!</Link>
