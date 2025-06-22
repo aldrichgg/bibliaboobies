@@ -16,7 +16,7 @@ export function Header() {
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
-            <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider shadow-lg">
+            <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider">
               <Link href="#pricing">QUERO O MEU AGORA!</Link>
             </Button>
           </nav>

@@ -12,7 +12,7 @@ export function Hero() {
         <p className="text-lg text-gray-700 max-w-prose">
           Inspirado no sucesso Bobbie Goods — um fenômeno que ganhou os lares com desenhos terapêuticos e acolhedores — nasceu o BíbliaTeca Mapeada: uma coleção cristã com 60 desenhos para colorir, do Antigo ao Novo Testamento.
         </p>
-        <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider shadow-lg">
+        <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider">
           <Link href="#pricing">QUERO DAR VIDA À BÍBLIA!</Link>
         </Button>
       </div>

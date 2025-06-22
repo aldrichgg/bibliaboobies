@@ -41,11 +41,11 @@ export function Pricing() {
                 <Gift className="w-16 h-16 mx-auto text-yellow-500" />
                 <div className="text-center w-full">
                   <p className="text-xl text-gray-600 line-through">De R$ 97,00 por apenas</p>
-                  <p className="text-5xl font-bold text-primary-dark font-headline my-2">12x de R$ 4,99</p>
-                  <p className="text-lg text-gray-700 font-semibold">ou R$ 49,90 à vista!</p>
+                  <p className="text-5xl font-bold text-primary-dark font-headline my-2">R$ 29,90</p>
+                  <p className="text-lg text-gray-700 font-semibold">Pagamento único!</p>
                 </div>
-                <Button asChild size="lg" className="w-full text-lg h-16 bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider shadow-lg">
-                  <Link href="#">QUERO GARANTIR MINHA VAGA!</Link>
+                <Button asChild size="lg" className="w-full text-lg h-16 bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider">
+                  <Link href="#">QUERO O MEU AGORA!</Link>
                 </Button>
                 <p className="text-xs text-center text-gray-500 pt-2">*Vagas limitadas com preço promocional.</p>
             </div>
