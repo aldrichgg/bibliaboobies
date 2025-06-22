@@ -4,7 +4,7 @@ export function ProductSection() {
   return (
     <section className="py-20 md:py-28">
       <div className="container grid lg:grid-cols-2 gap-16 items-center">
-        <div className="relative w-full h-96 lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl group">
+        <div className="relative w-full h-96 lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl group shadow-primary/20">
           <Image
             src="https://placehold.co/600x800.png"
             alt="God is Good Coloring Book"
@@ -14,7 +14,7 @@ export function ProductSection() {
           />
         </div>
         <div className="flex flex-col items-start space-y-6">
-          <p className="font-bold text-primary tracking-widest uppercase">A Solução Perfeita</p>
+          <p className="font-bold text-accent tracking-widest uppercase">A Solução Perfeita</p>
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
             "Deixem vir a mim as crianças..."
           </h2>

@@ -10,30 +10,33 @@ const includedFeatures = [
   'Bônus: Playlist para momentos de oração',
   'Bônus: Acesso à comunidade VIP',
   'Bônus: Marcadores de página temáticos',
+  'Bônus: Acesso vitalício ao material',
+  'Bônus: Desenhos em alta resolução para impressão',
+  'Bônus: Suporte exclusivo para tirar dúvidas',
 ];
 
 export function Pricing() {
   return (
     <section id="pricing" className="py-20 md:py-28 bg-background">
       <div className="container flex justify-center">
-        <Card className="w-full max-w-lg shadow-2xl border-2 border-accent bg-card">
+        <Card className="w-full max-w-lg shadow-2xl border-2 border-accent bg-card shadow-accent/20">
           <CardHeader className="text-center p-8">
-            <CardDescription className="text-lg text-primary font-semibold">
+            <CardDescription className="text-lg text-accent font-semibold">
               Apenas nesta página, você tem acesso ao
             </CardDescription>
             <CardTitle className="text-3xl font-headline text-primary">
-              God Is Good - a Bíblia para colorir + 5 bônus exclusivos
+              God Is Good - a Bíblia para colorir + 8 bônus exclusivos
             </CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col items-center space-y-4 px-8">
-            <div className="text-center">
-              <p className="text-5xl font-bold text-primary">6x de R$ 8,64</p>
-              <p className="text-lg text-foreground/80">ou R$ 29,90 à vista!</p>
+            <div className="text-center bg-secondary/70 rounded-2xl p-6 w-full">
+              <p className="text-5xl font-bold text-primary font-headline">6x de R$ 8,64</p>
+              <p className="text-lg text-foreground/80 mt-1">ou R$ 29,90 à vista!</p>
             </div>
             <ul className="w-full space-y-2 pt-4">
               {includedFeatures.map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
-                  <Check className="h-5 w-5 text-primary shrink-0" />
+                  <Check className="h-5 w-5 text-accent shrink-0" />
                   <span className="text-foreground/80">{feature}</span>
                 </li>
               ))}

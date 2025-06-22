@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
       <div className="flex flex-col items-start space-y-6">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-primary">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-headline tracking-tight text-primary [text-shadow:_2px_2px_0_hsl(var(--secondary))]">
           Tempo de qualidade com Deus e em família.
         </h1>
         <p className="text-lg text-foreground/80 max-w-prose">

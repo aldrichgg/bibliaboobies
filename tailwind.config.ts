@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['PT Sans', 'sans-serif'],
-        headline: ['Playfair Display', 'serif'],
+        body: ['Nunito', 'sans-serif'],
+        headline: ['Baloo 2', 'cursive'],
         code: ['monospace'],
       },
       colors: {
