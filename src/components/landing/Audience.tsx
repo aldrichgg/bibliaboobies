@@ -27,7 +27,7 @@ export function Audience() {
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
           {audiencePoints.map((point) => (
             <div key={point.title} className="flex items-start space-x-4">
-              <CheckCircle2 className="h-10 w-10 text-white mt-1 shrink-0 bg-yellow-500 rounded-full p-2" />
+              <CheckCircle2 className="h-12 w-12 text-accent-foreground mt-1 shrink-0 bg-accent rounded-full p-2" />
               <div>
                 <h3 className="text-xl font-bold font-headline text-primary-dark">{point.title}</h3>
                 <p className="mt-2 text-gray-700">{point.description}</p>

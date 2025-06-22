@@ -15,37 +15,41 @@ export function Pricing() {
   return (
     <section id="pricing" className="py-20 md:py-28 bg-blue-50">
       <div className="container flex justify-center">
-        <Card className="w-full max-w-lg shadow-2xl border-4 border-yellow-400 bg-white shadow-yellow-200/50 rounded-3xl">
-          <CardHeader className="text-center p-8">
-            <Gift className="w-16 h-16 mx-auto text-yellow-500 animate-pulse" />
-            <CardTitle className="text-3xl font-headline text-primary-dark mt-4">
-              Oferta Especial de Lançamento
-            </CardTitle>
-            <CardDescription className="text-lg text-gray-600">
-              Acesso completo ao <span className="font-bold text-pink-500">BíbliaTeca Mapeada</span> + 4 Bônus Exclusivos
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex flex-col items-center space-y-4 px-8">
-            <div className="text-center bg-yellow-100 rounded-2xl p-6 w-full border-2 border-dashed border-yellow-400">
-              <p className="text-xl text-gray-600 line-through">De R$ 97,00 por apenas</p>
-              <p className="text-5xl font-bold text-primary-dark font-headline">12x de R$ 4,99</p>
-              <p className="text-lg text-gray-700 mt-1">ou R$ 49,90 à vista!</p>
+        <Card className="w-full max-w-2xl shadow-2xl bg-white shadow-primary/20 rounded-3xl overflow-hidden border-4 border-primary/20">
+          <div className="grid lg:grid-cols-2">
+            <div className="p-8 flex flex-col justify-center">
+              <CardHeader className="p-0 mb-6">
+                <CardTitle className="text-3xl font-headline text-primary-dark">
+                  Oferta de Lançamento!
+                </CardTitle>
+                <CardDescription className="text-lg text-gray-600 mt-2">
+                  Acesso completo e imediato a todo o material.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-0">
+                <ul className="w-full space-y-3">
+                  {includedFeatures.map((feature) => (
+                    <li key={feature} className="flex items-center gap-3">
+                      <Check className="h-6 w-6 text-green-600 shrink-0 bg-green-100 rounded-full p-1" />
+                      <span className={`text-gray-700 ${feature.startsWith('Bônus') ? 'font-semibold' : ''}`}>{feature.replace('Bônus: ', '')}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
             </div>
-            <ul className="w-full space-y-3 pt-4">
-              {includedFeatures.map((feature) => (
-                <li key={feature} className="flex items-center gap-3">
-                  <Check className="h-6 w-6 text-green-500 shrink-0 bg-green-100 rounded-full p-1" />
-                  <span className="text-gray-700">{feature.startsWith('Bônus') ? <strong>{feature}</strong> : feature}</span>
-                </li>
-              ))}
-            </ul>
-          </CardContent>
-          <CardFooter className="flex flex-col space-y-2 p-8">
-            <Button asChild size="lg" className="w-full text-lg h-16 bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider shadow-lg animate-pulse">
-              <Link href="#">QUERO GARANTIR MINHA VAGA!</Link>
-            </Button>
-            <p className="text-xs text-center text-gray-500 pt-2">*Vagas limitadas com preço promocional.</p>
-          </CardFooter>
+            <div className="flex flex-col items-center justify-center space-y-4 p-8 bg-gradient-to-br from-yellow-100 to-pink-100">
+                <Gift className="w-16 h-16 mx-auto text-yellow-500" />
+                <div className="text-center w-full">
+                  <p className="text-xl text-gray-600 line-through">De R$ 97,00 por apenas</p>
+                  <p className="text-5xl font-bold text-primary-dark font-headline my-2">12x de R$ 4,99</p>
+                  <p className="text-lg text-gray-700 font-semibold">ou R$ 49,90 à vista!</p>
+                </div>
+                <Button asChild size="lg" className="w-full text-lg h-16 bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider shadow-lg">
+                  <Link href="#">QUERO GARANTIR MINHA VAGA!</Link>
+                </Button>
+                <p className="text-xs text-center text-gray-500 pt-2">*Vagas limitadas com preço promocional.</p>
+            </div>
+          </div>
         </Card>
       </div>
     </section>

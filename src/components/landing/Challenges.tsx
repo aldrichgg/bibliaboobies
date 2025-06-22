@@ -3,17 +3,17 @@ import { WifiOff, BookX, Languages } from 'lucide-react';
 
 const challenges = [
   {
-    icon: <WifiOff className="h-8 w-8 text-accent" />,
+    icon: <WifiOff className="h-8 w-8 text-primary" />,
     title: "Concorrência tecnológica",
     description: "Em um mundo dominado por estímulos visuais, a leitura da Bíblia pode parecer menos atrativa para as crianças.",
   },
   {
-    icon: <BookX className="h-8 w-8 text-accent" />,
+    icon: <BookX className="h-8 w-8 text-primary" />,
     title: "Barreira de contexto",
     description: "As histórias bíblicas podem parecer distantes da realidade atual, dificultando o interesse dos pequenos.",
   },
   {
-    icon: <Languages className="h-8 w-8 text-accent" />,
+    icon: <Languages className="h-8 w-8 text-primary" />,
     title: "Barreira linguística",
     description: "Termos e linguagens antigas dificultam a conexão e o entendimento dos ensinamentos da Palavra.",
   },
@@ -35,7 +35,7 @@ export function Challenges() {
           {challenges.map((challenge) => (
             <Card key={challenge.title} className="text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:shadow-primary/20 bg-card rounded-2xl">
               <CardHeader>
-                <div className="mx-auto bg-secondary rounded-full p-4 w-fit mb-4">
+                <div className="mx-auto bg-primary/10 rounded-full p-4 w-fit mb-4">
                   {challenge.icon}
                 </div>
                 <CardTitle className="font-headline text-2xl">{challenge.title}</CardTitle>
