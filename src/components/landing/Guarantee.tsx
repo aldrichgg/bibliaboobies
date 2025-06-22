@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function Guarantee() {
   return (
-    <section className="bg-yellow-100">
+    <section className="bg-white">
       <div className="container flex flex-col md:flex-row items-center justify-center gap-8 py-16 text-center md:text-left">
         <Image 
           src="https://bibliatecamapeada.com/wp-content/uploads/2023/10/Etiqueta-Selo-de-Garantia-30-Dias-Criativo-Dourado-300x300.png"
