@@ -18,11 +18,10 @@ export function Bonus() {
         </div>
         <div className="relative w-full h-96 lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl group shadow-blue-200/50">
           <Image
-            src="https://placehold.co/600x800.png"
+            src="https://static-media.hotmart.com/HSSe26yFZ6FS4hm3HIDA1VjxD0U=/300x300/filters:quality(100)/hotmart/product_pictures/5deae535-16bd-4d7e-a2ab-63398fb473bd/de200mapasmentais1.png"
             alt="Devocional Hábitos Vencedores"
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
-            data-ai-hint="devotional book bible"
           />
         </div>
       </div>
