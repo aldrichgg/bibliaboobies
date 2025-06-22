@@ -45,7 +45,7 @@ export function Pricing() {
                   <p className="text-lg text-gray-700 font-semibold">Pagamento único!</p>
                 </div>
                 <Button asChild size="lg" className="w-full text-lg h-16 bg-green-500 hover:bg-green-600 text-white font-bold tracking-wider">
-                  <Link href="#">QUERO O MEU AGORA!</Link>
+                  <Link href="https://pay.kirvano.com/5f30f347-3bd4-4900-8d37-21b93a049048">QUERO O MEU AGORA!</Link>
                 </Button>
                 <p className="text-xs text-center text-gray-500 pt-2">*Vagas limitadas com preço promocional.</p>
             </div>
