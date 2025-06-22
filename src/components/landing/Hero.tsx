@@ -18,9 +18,10 @@ export function Hero() {
       </div>
       <div className="relative w-full h-80 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl shadow-blue-200/50 group">
         <Image
-          src="https://bibliatecamapeada.com/wp-content/uploads/2025/05/MOCKUPS-43.png"
+          src="https://bibliatecamapeada.com/wp-content/uploads/2025/05/MOCKUPS-48-768x543.png"
           alt="Família colorindo desenhos da Bíblia"
           fill
+          data-ai-hint="coloring book"
           className="object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
         />
       </div>
