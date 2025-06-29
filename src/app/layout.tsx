@@ -1,4 +1,4 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import Script from 'next/script';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
@@ -30,9 +30,20 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=1296417668014516&ev=PageView&noscript=1"
           />
         </noscript>
+
+        {/* Script do UTMify */}
+        <Script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          strategy="afterInteractive"
+          data-utmify-prevent-xcod-sck=""
+          data-utmify-prevent-subids=""
+        />
+
         {children}
         <Toaster />
         <SalesPopup />
+
+        {/* Script do Facebook Pixel */}
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -51,3 +62,4 @@ export default function RootLayout({
     </html>
   );
 }
+
